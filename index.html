@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ember & Bloom — Specialty Coffee & Café</title>
+    <meta name="description" content="Ember & Bloom is a specialty coffee roaster and café crafting single-origin beans, seasonal drinks, and artisan pastries in a warm, inviting space.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">Ember <span>& Bloom</span></a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg" style="background-image: url('images/hero.jpg')"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-label">Specialty Coffee Roasters · Est. 2019</p>
+            <h1>Where Every Cup <em>Tells a Story</em></h1>
+            <p class="hero-subtitle">We source the world's finest single-origin beans, roast them with care, and serve them in a space that feels like home.</p>
+            <div class="hero-buttons">
+                <a href="menu.html" class="btn btn-primary">Explore Our Menu</a>
+                <a href="about.html" class="btn btn-outline">Our Story</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="section featured">
+        <div class="container">
+            <div class="section-header fade-in">
+                <p class="section-label">From Our Bar</p>
+                <h2 class="section-title">Featured This Season</h2>
+                <p class="section-subtitle">Hand-picked selections from our roastery, each with its own character and story.</p>
+            </div>
+            <div class="featured-grid">
+                <div class="featured-card fade-in">
+                    <div class="featured-card-img">
+                        <img src="images/gallery1.jpg" alt="Ethiopian Yirgacheffe pour over coffee">
+                    </div>
+                    <div class="featured-card-body">
+                        <p class="featured-card-tag">Single Origin</p>
+                        <h3 class="featured-card-title">Ethiopian Yirgacheffe</h3>
+                        <p class="featured-card-desc">Bright citrus notes with a floral finish. Light roast that lets the bean's natural complexity shine through.</p>
+                    </div>
+                </div>
+                <div class="featured-card fade-in">
+                    <div class="featured-card-img">
+                        <img src="images/menu.jpg" alt="Oat milk lavender latte">
+                    </div>
+                    <div class="featured-card-body">
+                        <p class="featured-card-tag">Seasonal Special</p>
+                        <h3 class="featured-card-title">Lavender Oat Latte</h3>
+                        <p class="featured-card-desc">House-made lavender syrup meets creamy oat milk and our signature espresso blend. Spring in a cup.</p>
+                    </div>
+                </div>
+                <div class="featured-card fade-in">
+                    <div class="featured-card-img">
+                        <img src="images/gallery4.jpg" alt="Colombian Huila dark roast beans">
+                    </div>
+                    <div class="featured-card-body">
+                        <p class="featured-card-tag">Dark Roast</p>
+                        <h3 class="featured-card-title">Colombian Huila</h3>
+                        <p class="featured-card-desc">Rich chocolate and brown sugar with a full body. Perfect for espresso or a bold French press.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Teaser -->
+    <section class="section story-teaser">
+        <div class="container">
+            <div class="story-teaser-grid">
+                <div class="story-teaser-img fade-in">
+                    <img src="images/story.jpg" alt="Coffee beans being roasted at Ember & Bloom">
+                </div>
+                <div class="story-teaser-text fade-in">
+                    <p class="section-label">Our Story</p>
+                    <h2 class="section-title">Roasted with Intention</h2>
+                    <p>It started with a simple belief: coffee should be more than a morning ritual. It should be an experience — from the farmers who grow it, to the hands that roast it, to the moment it touches your lips. At Ember & Bloom, every batch is roasted in small lots right here in our café, letting you taste the difference that care and craft make.</p>
+                    <a href="about.html" class="btn btn-primary">Read Our Story</a>
+                    <div class="story-stats">
+                        <div>
+                            <div class="story-stat-number">12+</div>
+                            <div class="story-stat-label">Origin Countries</div>
+                        </div>
+                        <div>
+                            <div class="story-stat-number">6</div>
+                            <div class="story-stat-label">Years Roasting</div>
+                        </div>
+                        <div>
+                            <div class="story-stat-number">50k+</div>
+                            <div class="story-stat-label">Cups Served</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background: var(--color-white); text-align: center;">
+        <div class="container fade-in">
+            <p class="section-label">Visit Us</p>
+            <h2 class="section-title" style="margin-bottom: 16px;">Your Table Is Waiting</h2>
+            <p class="section-subtitle" style="margin-bottom: 40px;">Open daily from 7am to 7pm. Walk-ins always welcome, or reserve a spot for your next gathering.</p>
+            <a href="contact.html" class="btn btn-dark">Find Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Ember & Bloom</h3>
+                    <p>Specialty coffee roasters crafting single-origin beans and seasonal drinks in a space that feels like home.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram">✦</a>
+                        <a href="#" aria-label="Facebook">◆</a>
+                        <a href="#" aria-label="Twitter">●</a>
+                        <a href="#" aria-label="TikTok">▶</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Navigate</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Hours</h4>
+                    <ul class="footer-links">
+                        <li>Mon – Fri: 7am – 7pm</li>
+                        <li>Saturday: 8am – 8pm</li>
+                        <li>Sunday: 8am – 5pm</li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay in the Loop</h4>
+                    <p>Get notified about new roasts, seasonal menus, and café events.</p>
+                    <form class="footer-newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Join</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2025 Ember & Bloom. All rights reserved.</span>
+                <span>Crafted with care.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
