@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu — Ember & Bloom</title>
+    <meta name="description" content="Explore the full menu at Ember & Bloom. Specialty espresso drinks, pour-overs, seasonal creations, fresh pastries, and light bites.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">Ember <span>& Bloom</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="menu.html" class="active">Menu</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="page-hero">
+        <div class="hero-bg" style="background-image: url('images/menu.jpg')"></div>
+        <div class="hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1>Our Menu</h1>
+            <p>Thoughtfully sourced, carefully prepared, always fresh.</p>
+        </div>
+    </section>
+
+    <!-- Menu Content -->
+    <section class="section" style="background: var(--color-cream);">
+        <div class="container">
+
+            <!-- Category Filter -->
+            <div class="menu-categories fade-in">
+                <button class="menu-cat-btn active" data-cat="all">All</button>
+                <button class="menu-cat-btn" data-cat="coffee">Coffee</button>
+                <button class="menu-cat-btn" data-cat="tea">Tea & More</button>
+                <button class="menu-cat-btn" data-cat="food">Food</button>
+            </div>
+
+            <!-- Espresso & Coffee -->
+            <div class="menu-section fade-in" data-cat="coffee">
+                <h3 class="menu-section-title">Espresso & Coffee</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Espresso</h4>
+                            <p>Double shot, clean and bold. Our house blend with notes of dark chocolate and toasted almond.</p>
+                        </div>
+                        <span class="menu-item-price">$3.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Americano</h4>
+                            <p>Espresso lengthened with hot water for a smooth, full-bodied cup.</p>
+                        </div>
+                        <span class="menu-item-price">$4.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Cappuccino</h4>
+                            <p>Equal parts espresso, steamed milk, and velvety foam. Classic perfection.</p>
+                        </div>
+                        <span class="menu-item-price">$5.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Flat White</h4>
+                            <p>Double ristretto with microfoam. Silky, intense, and beautifully balanced.</p>
+                        </div>
+                        <span class="menu-item-price">$5.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Latte</h4>
+                            <p>Smooth espresso with steamed milk and a thin layer of foam. Available hot or iced.</p>
+                        </div>
+                        <span class="menu-item-price">$5.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Pour Over</h4>
+                            <p>Single-origin beans brewed to order. Ask about today's selection — it changes weekly.</p>
+                        </div>
+                        <span class="menu-item-price">$5.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Cold Brew</h4>
+                            <p>Steeped for 18 hours. Smooth, naturally sweet, and dangerously drinkable.</p>
+                        </div>
+                        <span class="menu-item-price">$5.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Affogato</h4>
+                            <p>A scoop of vanilla bean gelato drowned in a fresh shot of espresso.</p>
+                        </div>
+                        <span class="menu-item-price">$6.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seasonal Specials -->
+            <div class="menu-section fade-in" data-cat="coffee">
+                <h3 class="menu-section-title">Seasonal Specials</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Lavender Oat Latte</h4>
+                            <p>House-made lavender syrup, creamy oat milk, and our signature espresso. Floral and comforting.</p>
+                        </div>
+                        <span class="menu-item-price">$6.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Honey Cardamom Cortado</h4>
+                            <p>Equal parts espresso and warm milk, sweetened with wildflower honey and a hint of cardamom.</p>
+                        </div>
+                        <span class="menu-item-price">$5.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Matcha Espresso Fusion</h4>
+                            <p>Ceremonial grade matcha meets a shot of espresso over oat milk. The best of both worlds.</p>
+                        </div>
+                        <span class="menu-item-price">$6.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Maple Cinnamon Cold Brew</h4>
+                            <p>Our cold brew with real maple syrup and a dusting of Ceylon cinnamon. Iced or blended.</p>
+                        </div>
+                        <span class="menu-item-price">$6.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tea & More -->
+            <div class="menu-section fade-in" data-cat="tea">
+                <h3 class="menu-section-title">Tea & More</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Loose Leaf Tea</h4>
+                            <p>Choose from our curated collection: Earl Grey, Jasmine Green, Chamomile, or English Breakfast.</p>
+                        </div>
+                        <span class="menu-item-price">$4.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Chai Latte</h4>
+                            <p>House-brewed spiced chai with steamed milk. Warm spices, real ginger, and a touch of vanilla.</p>
+                        </div>
+                        <span class="menu-item-price">$5.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Golden Turmeric Latte</h4>
+                            <p>Turmeric, ginger, black pepper, and honey with your choice of milk. Anti-inflammatory and delicious.</p>
+                        </div>
+                        <span class="menu-item-price">$5.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Hot Chocolate</h4>
+                            <p>Real Belgian chocolate melted into steamed milk. Topped with house-made whipped cream.</p>
+                        </div>
+                        <span class="menu-item-price">$5.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Fresh Juice</h4>
+                            <p>Pressed daily. Orange, Green Machine (kale, apple, ginger), or Beetroot Sunrise.</p>
+                        </div>
+                        <span class="menu-item-price">$6.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Sparkling Water</h4>
+                            <p>San Pellegrino, served chilled with a slice of lemon or lime.</p>
+                        </div>
+                        <span class="menu-item-price">$3.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Food -->
+            <div class="menu-section fade-in" data-cat="food">
+                <h3 class="menu-section-title">Pastries & Light Bites</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Butter Croissant</h4>
+                            <p>Flaky, golden, baked fresh every morning. The perfect companion to any coffee.</p>
+                        </div>
+                        <span class="menu-item-price">$4.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Almond Croissant</h4>
+                            <p>Filled with almond frangipane, topped with sliced almonds and powdered sugar.</p>
+                        </div>
+                        <span class="menu-item-price">$5.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Banana Bread</h4>
+                            <p>Moist, dense, and lightly spiced. Served with a smear of salted butter.</p>
+                        </div>
+                        <span class="menu-item-price">$4.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Avocado Toast</h4>
+                            <p>Smashed avocado on sourdough with cherry tomatoes, microgreens, and everything seasoning.</p>
+                        </div>
+                        <span class="menu-item-price">$9.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Granola Bowl</h4>
+                            <p>House-made granola with Greek yogurt, seasonal berries, and a drizzle of honey.</p>
+                        </div>
+                        <span class="menu-item-price">$8.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Caprese Sandwich</h4>
+                            <p>Fresh mozzarella, heirloom tomato, basil pesto on ciabatta. Pressed and warm.</p>
+                        </div>
+                        <span class="menu-item-price">$10.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Blueberry Scone</h4>
+                            <p>Tender, crumbly, bursting with blueberries. Glazed with vanilla bean icing.</p>
+                        </div>
+                        <span class="menu-item-price">$4.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Cookie of the Day</h4>
+                            <p>Always fresh, always rotating. Ask what's baking — chocolate chip, oatmeal raisin, or snickerdoodle.</p>
+                        </div>
+                        <span class="menu-item-price">$3.50</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Ember & Bloom</h3>
+                    <p>Specialty coffee roasters crafting single-origin beans and seasonal drinks in a space that feels like home.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram">✦</a>
+                        <a href="#" aria-label="Facebook">◆</a>
+                        <a href="#" aria-label="Twitter">●</a>
+                        <a href="#" aria-label="TikTok">▶</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Navigate</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Hours</h4>
+                    <ul class="footer-links">
+                        <li>Mon – Fri: 7am – 7pm</li>
+                        <li>Saturday: 8am – 8pm</li>
+                        <li>Sunday: 8am – 5pm</li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay in the Loop</h4>
+                    <p>Get notified about new roasts, seasonal menus, and café events.</p>
+                    <form class="footer-newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Join</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2025 Ember & Bloom. All rights reserved.</span>
+                <span>Crafted with care.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
