@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery — Ember & Bloom</title>
+    <meta name="description" content="A glimpse inside Ember & Bloom — our café, our craft, and the moments that make this place special.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">Ember <span>& Bloom</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html" class="active">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="page-hero">
+        <div class="hero-bg" style="background-image: url('images/gallery5.jpg')"></div>
+        <div class="hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1>Gallery</h1>
+            <p>Moments from our café, captured in light.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="section" style="background: var(--color-cream);">
+        <div class="container">
+            <div class="section-header fade-in">
+                <p class="section-label">A Visual Story</p>
+                <h2 class="section-title">Inside Ember & Bloom</h2>
+                <p class="section-subtitle">From the first pour of the morning to the last pastry out of the oven — here's what a day with us looks like.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in">
+                    <img src="images/hero.jpg" alt="Cozy interior of Ember & Bloom café with warm lighting">
+                    <div class="gallery-item-overlay"><span>+</span></div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/about.jpg" alt="Barista crafting latte art at the espresso bar">
+                    <div class="gallery-item-overlay"><span>+</span></div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/story.jpg" alt="Fresh coffee beans roasting in small batches">
+                    <div class="gallery-item-overlay"><span>+</span></div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery1.jpg" alt="Pour over coffee being brewed tableside">
+                    <div class="gallery-item-overlay"><span>+</span></div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery2.jpg" alt="Artisan pastries and croissants on display">
+                    <div class="gallery-item-overlay"><span>+</span></div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery3.jpg" alt="Coffee cupping session with multiple brews">
+                    <div class="gallery-item-overlay"><span>+</span></div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery4.jpg" alt="Close-up of roasted coffee beans cooling">
+                    <div class="gallery-item-overlay"><span>+</span></div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery5.jpg" alt="The café terrace on a sunny afternoon">
+                    <div class="gallery-item-overlay"><span>+</span></div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery6.jpg" alt="Minimalist coffee cup flat lay composition">
+                    <div class="gallery-item-overlay"><span>+</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <img src="" alt="">
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Ember & Bloom</h3>
+                    <p>Specialty coffee roasters crafting single-origin beans and seasonal drinks in a space that feels like home.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram">✦</a>
+                        <a href="#" aria-label="Facebook">◆</a>
+                        <a href="#" aria-label="Twitter">●</a>
+                        <a href="#" aria-label="TikTok">▶</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Navigate</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Hours</h4>
+                    <ul class="footer-links">
+                        <li>Mon – Fri: 7am – 7pm</li>
+                        <li>Saturday: 8am – 8pm</li>
+                        <li>Sunday: 8am – 5pm</li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay in the Loop</h4>
+                    <p>Get notified about new roasts, seasonal menus, and café events.</p>
+                    <form class="footer-newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Join</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2025 Ember & Bloom. All rights reserved.</span>
+                <span>Crafted with care.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
